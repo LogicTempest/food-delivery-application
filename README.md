@@ -77,5 +77,7 @@ Order-Service ----> Ride-Service ----> Payment-Service
    "paymentMethod": "Credit Card",
    "createdAt": "2025-01-14T10:30:45"
    }
+   
 11. Using the OrderId, payment-service will fetch the ride status from the ride-service using REST API calls and displays the complete payment details.
+
 12. Download the demo video: screenrecording.mp4
